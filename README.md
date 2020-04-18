@@ -1,4 +1,4 @@
-# REACTt
+# RESTt
 
 RESTt or REST-tracing provides a mechanism to trace REST calls made in or out of another REST call. This will in turn enable the consumers to have an overview of how their REST architecture and dependencies look like.
 
