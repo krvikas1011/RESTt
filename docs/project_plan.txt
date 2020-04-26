@@ -24,14 +24,14 @@ Phase 3 -> 3 Iterations
 
 Phase 4 -> 2 Iteration
 -------------------
-1. Basic API Design 
+1. Basic API Design & Implementation
 2. Caching System
 
 ############################ Release 1.0 BETA ###################################
 
 Phase 5 -> 3 Iterations
 -------------------
-1. All API Design
+1. All API Design & Implementation
 2. Basic UI
 
 ############################ Release 1.0 ###################################
