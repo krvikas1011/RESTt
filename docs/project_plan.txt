@@ -1,0 +1,48 @@
+--------------------------
+1 Iteration = 2 weeks
+Start Date : 27.04.2020
+--------------------------
+
+Phase 1 -> 3 Iterations
+-------------------
+1. High level design of API Data Generator
+
+2. Basic Ground Work and Exploration on capturing user data
+
+3. API Data Generator Complete Design
+
+Phase 2 -> 2 Iterations
+-------------------
+1. Database design
+
+2. API Data Generator Implementation
+
+Phase 3 -> 3 Iterations
+-------------------
+1. API Data Fetcher Design and Implementation
+2. API Data Sanitizer Design and Implementation
+
+Phase 4 -> 2 Iteration
+-------------------
+1. Basic API Design 
+2. Caching System
+
+############################ Release 1.0 BETA ###################################
+
+Phase 5 -> 3 Iterations
+-------------------
+1. All API Design
+2. Basic UI
+
+############################ Release 1.0 ###################################
+
+Phase 6 (Optional) -> 2 Iteration
+-------------------
+1. Containerization
+2. Advanced UI
+
+
+Planned Work : 15 weeks
+Buffer Time: 1 week
+----------------------------
+Total Time: 16 weeks
