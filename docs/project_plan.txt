@@ -42,7 +42,7 @@ Phase 6 (Optional) -> 2 Iteration
 2. Advanced UI
 
 
-Planned Work : 15 weeks
-Buffer Time: 1 week
+Planned Work : 15 Iterations
+Buffer Time: 1 Iteration
 ----------------------------
-Total Time: 16 weeks
+Total Time: 16 Iterations
