@@ -1,0 +1,38 @@
+-----------
+Zipkin 
+-----------
+
+
+The popular Spring framework has a component called Spring Cloud Sleuth that is compatible with Zipkin. 
+
+Zipkin was written using Java, and it can use Cassandra or ElasticSearch as a scalable backend. 
+
+Zipkin provides Docker images and Java programs. Unlike Jaeger, Zipkin is a single process that includes the collector, storage, API, and UI. This makes deployment easier, but the story is less clear. 
+
+Zipkin supports every programming language out there, with dedicated libraries–with native OpenTracing instrumentation support or extension points for tracing capabilities–for almost all of their frameworks: C, C++, C#, Java, Javascript, Python, Scala, Go, and more. It also comes with native support for the major cloud providers: AWS, Azure, and Google Cloud.  
+
+ 
+----------
+Jaeger 
+----------
+
+
+Jaeger also supports Cassandra and ElasticSearch as scalable storage backends 
+
+Jaeger’s architecture is similar to Zipkin, with clients (reporters), collectors, a query service, and a web UI, but it also has an agent on each host that locally aggregates the data. 
+
+Jaeger is part of the CNCF, so Kubernetes is the preferred deployment platform. 
+
+Unlike Zipkin, Jaeger has a shorter list of supported languages: C#, Java, Node.js, Python, and Go. But it does come with multiple repositories that offer off-the-shelf instrumentation for many development frameworks such as JAX-RS and Dropwizard (Java), Flask and Django (Python), and Go standard library. 
+
+
+Opentracing API 
+
+------------
+Final : 
+------------
+
+
+Here's a simple recommendation. Evaluate Jaeger first and see how it fits into your existing solution. If Jaeger doesn't fit, then go with Zipkin. 
+
+Deployment, however, is another aspect that should be taken into consideration. If you are using Kubernetes, Jaeger should be a natural fit. But Zipkin is the less-complicated solution if you are not currently using a container infrastructure.  
